@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JoysoundVocaloidPlaylist — アプリについて</title>
+<style>
+  :root { color-scheme: light; font-family: system-ui, sans-serif; color: #223247; background: #f5f7fa; }
+  body { max-width: 760px; margin: 0 auto; padding: 48px 24px; line-height: 1.9; }
+  main { padding: 32px; background: white; border: 1px solid #dce3eb; border-radius: 12px; }
+  h1 { font-size: clamp(1.35rem, 4vw, 2rem); line-height: 1.4; overflow-wrap: anywhere; }
+  h2 { margin-top: 32px; font-size: 1.2rem; } a { color: #1459a1; } footer { margin-top: 24px; font-size: .9rem; }
+  @media (max-width: 480px) { body { padding: 24px 16px; } main { padding: 20px; } }
+</style>
+<main>
+  <p>個人利用のプレイリスト管理ツール</p>
+  <h1>JoysoundVocaloidPlaylist</h1>
+  <p>JOYSOUNDの月間ボカロランキングをもとに、自分のYouTubeプレイリストを整理するWindows用の個人ツールです。楽曲と動画の対応を確認し、ランキング順にプレイリストを更新します。</p>
+  <h2>主な機能</h2>
+  <ul>
+    <li>ランキングとYouTube動画の対応を管理し、手動で選んだ動画を優先します。</li>
+    <li>認証した本人が所有する対象プレイリストの内容を確認します。</li>
+    <li>同期計画に従って動画の追加・並べ替え・プレイリストからの削除を行い、説明欄のランキング対象月を更新します。</li>
+  </ul>
+  <h2>Googleアカウントへのアクセス</h2>
+  <p>YouTube Data APIを利用します。プレイリストの所有者確認と内容の取得には読み取り権限、プレイリストの更新には書き込み権限を使用します。Googleの認証画面で本人が許可した範囲でアクセスし、パスワードをこのツールが取得することはありません。</p>
+  <p>ツールは利用者のPCで動作します。このウェブサイトは説明を掲載するためのもので、ログインやプレイリスト操作の機能はありません。</p>
+  <h2>データの取り扱い</h2>
+  <p>認証情報はWindowsの暗号化機能で保護してPC内に保存します。取得・保存するデータ、利用目的、アクセスの取り消しについては<a href="privacy.html">プライバシーポリシー</a>をご覧ください。</p>
+  <p>個人利用の非公式ツールであり、Google、YouTube、JOYSOUNDの公式製品ではありません。ツール本体の一般配布は行っていません。</p>
+</main>
+<footer>JoysoundVocaloidPlaylist · <a href="privacy.html">プライバシーポリシー</a></footer>
+</html>
